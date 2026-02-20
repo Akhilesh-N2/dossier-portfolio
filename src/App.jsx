@@ -37,7 +37,6 @@ export default function Portfolio() {
         {/* ========================================= */}
         <div className="flex-1 bg-[#f4e4bc] h-[85vh] md:h-[80vh] rounded-xl rounded-tr-none md:rounded-tr-xl md:rounded-tl-none p-3 md:p-8 shadow-2xl border border-amber-900/20 relative z-10 flex flex-col [perspective:2000px]">
 
-          {/* --- THE FOLD-DOWN FRONT COVER --- */}
           {/* --- THE FOLDING FRONT COVER --- */}
           {!isCoverHidden && (
             <div
@@ -427,7 +426,7 @@ export default function Portfolio() {
         {/* ========================================= */}
         {/* 2. TABS ROW */}
         {/* ========================================= */}
-        <div className="flex flex-col md:flex-row relative z-10 pt-0 md:pt-0 pl-0 md:pl-10">
+        <div className="flex flex-col md:flex-row relative z-10 pt-0 md:pt-0 pl-0 md:pl-0">
           {tabs.map((tab) => (
             <button
               key={tab}
