@@ -129,7 +129,7 @@ export default function Portfolio() {
 
                   <div className="lg:col-span-1 relative flex justify-center lg:justify-end mt-4 lg:mt-0 z-10">
                     <div className="w-32 h-40 md:w-48 md:h-56 bg-slate-300 shadow-lg border-[4px] md:border-[6px] border-white transform rotate-3 relative hover:rotate-1 transition-transform duration-300">
-                      <p className="absolute inset-0 flex items-center justify-center text-slate-500 font-mono text-xs md:text-sm text-center px-2">[Attach Photo]</p>
+                      <p className="absolute inset-0 flex items-center justify-center text-slate-500 font-mono text-xs md:text-sm text-center px-2">[Coming soon]</p>
                       <div className="absolute -top-4 -left-2 w-4 h-10 md:-top-6 md:-left-2 md:w-5 md:h-14 border-2 border-slate-400 rounded-full transform -rotate-12 bg-transparent shadow-sm pointer-events-none z-20"></div>
                       <div className="absolute -top-3 -left-1 w-2 h-8 md:-top-5 md:-left-1 md:w-3 md:h-10 border-2 border-slate-400 rounded-full transform -rotate-12 bg-transparent pointer-events-none z-20"></div>
                     </div>
