@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 // 1. MOVED OUTSIDE: Static data doesn't need to re-render
-const tabs = ['Home', 'Projects', 'About', 'Resume', 'Contact'];
+const tabs = ['Home', 'Projects', 'Resume', 'Contact'];
 
 const projectList = [
   {
@@ -354,8 +354,8 @@ export default function Portfolio() {
                   <p className="text-xs md:text-sm font-bold tracking-widest text-slate-500 uppercase mt-2">Approved Contact Channels</p>
                 </header>
 
-                <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start">
-                  <div className="relative w-full lg:w-80 group mt-4 lg:mt-0">
+                <div className="flex flex-col lg:flex-row gap-10 lg:gap-30 items-start">
+                  <div className="relative w-full lg:w-100 group mt-4 lg:mt-10">
                     <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 w-12 md:w-16 h-5 md:h-6 bg-white/60 backdrop-blur-md shadow-sm rotate-3 border border-white/40 z-20"></div>
                     <div className="bg-stone-100 p-6 md:p-8 shadow-md border border-stone-300 transform -rotate-2 group-hover:rotate-0 transition-transform duration-300 relative z-10">
                       <h3 className="font-serif text-xl md:text-2xl text-slate-800 tracking-tight">Akhilesh N.</h3>
@@ -400,6 +400,19 @@ export default function Portfolio() {
                         <div>
                           <h4 className="font-bold text-slate-800 tracking-wide">GitHub Repository</h4>
                           <p className="text-xs font-mono text-slate-500">Source Code & Archives</p>
+                        </div>
+                      </div>
+                      <span className="font-mono text-xs text-slate-400 group-hover:text-amber-700 transition-colors">[ ROUTE ]</span>
+                    </a>
+
+                    <a href="https://www.instagram.com/_akhilesh_n_?igsh=dmpycTcyamp5aTI1" target="_blank" rel="noreferrer" className="group flex items-center justify-between p-4 bg-stone-50 border-2 border-slate-300 border-dashed hover:border-amber-700 hover:bg-stone-100 transition-colors cursor-pointer relative overflow-hidden">
+                      <div className="flex items-center gap-4 relative z-10">
+                        <div className="w-10 h-10 bg-slate-200 flex items-center justify-center rounded-sm text-slate-600 group-hover:bg-amber-700 group-hover:text-white transition-colors">
+                          <InstagramIcon />
+                        </div>
+                        <div>
+                          <h4 className="font-bold text-slate-800 tracking-wide">Instagram Profile</h4>
+                          <p className="text-xs font-mono text-slate-500">Social Media Presence</p>
                         </div>
                       </div>
                       <span className="font-mono text-xs text-slate-400 group-hover:text-amber-700 transition-colors">[ ROUTE ]</span>
@@ -456,6 +469,14 @@ function LinkedInIcon() {
   return (
     <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
       <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+    </svg>
+  );
+}
+
+function InstagramIcon() {
+  return (
+    <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
+      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.35 3.608 1.325.975.975 1.264 2.242 1.325 3.608.058 1.266.069 1.645.069 4.85s-.012 3.584-.07 4.85c-.062 1.366-.35 2.633-1.325 3.608-.975.975-2.242 1.264-3.608 1.325-1.266.058-1.645.069-4.85.069s-3.584-.012-4.85  -.07c-1.366-.062-2.633-.35-3.608-1.325-.975-.975-1.264-2.242-1.325-3.608C2.175 15.747 2.163 15.368 2.163 12s.012-3.584.07-4.85c.062-1.366.35-2.633 1.325-3.608C4.533 2.513 5.8 2.224 7.166 2.163c1.266-.058 1.645-.069 4.85-.069zm0-2.163C8.741 0 8.332 0 7.052.07c-1.675.077-3.162.36-4.364 1.562C1.44 2.834 1.156 4.32 1.08 5.995c-.07 1.28-.07 1.689-.07 4s0 2.719.07 4c0 1.675.36 3.162 1.562 4s3 .485 4 .562c1 .058 1 .069 4 .069s3-.012 4-.07c1-.077 3-.36 4-1.562s1.485-2.689 1.562-4c0-1 .012-1 .012-4s0-2.719-.07-4c-.077-1-.36-3-1.562-4S16 .485 15 .407c-1-.058-1-.069-4-.069zM12 5a7 7 0 100 14A7 7 0 0012 5zm0 11.5a4.5 4.5 0 110-9 4.5 4.5 0 010 9zm6.406-11.845a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z" />
     </svg>
   );
 }
