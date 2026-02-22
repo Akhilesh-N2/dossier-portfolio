@@ -1,4 +1,6 @@
-export const tabs = ['Home', 'Projects', 'Resume', 'Contact'];
+export const tabs = ['Home', 'Projects', 'Contact']; 
+
+// , 'Resume'
 
 export const mainProjectList = [
   {

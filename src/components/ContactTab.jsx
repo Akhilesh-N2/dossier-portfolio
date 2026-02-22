@@ -59,7 +59,7 @@ export default function ContactTab() {
                         <span className="font-mono text-xs text-slate-400 group-hover:text-amber-700 transition-colors">[ ROUTE ]</span>
                     </a>
 
-                    <a href="https://www.instagram.com/_akhilesh_n_?igsh=dmpycTcyamp5aTI1" target="_blank" rel="noreferrer" className="group flex items-center justify-between p-4 bg-stone-50 border-2 border-slate-300 border-dashed hover:border-amber-700 hover:bg-stone-100 transition-colors cursor-pointer relative overflow-hidden">
+                    {/* <a href="https://www.instagram.com/_akhilesh_n_?igsh=dmpycTcyamp5aTI1" target="_blank" rel="noreferrer" className="group flex items-center justify-between p-4 bg-stone-50 border-2 border-slate-300 border-dashed hover:border-amber-700 hover:bg-stone-100 transition-colors cursor-pointer relative overflow-hidden">
                         <div className="flex items-center gap-4 relative z-10">
                             <div className="w-10 h-10 bg-slate-200 flex items-center justify-center rounded-sm text-slate-600 group-hover:bg-amber-700 group-hover:text-white transition-colors">
                                 <InstagramIcon />
@@ -70,7 +70,7 @@ export default function ContactTab() {
                             </div>
                         </div>
                         <span className="font-mono text-xs text-slate-400 group-hover:text-amber-700 transition-colors">[ ROUTE ]</span>
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>

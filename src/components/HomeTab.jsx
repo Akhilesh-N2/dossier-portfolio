@@ -15,7 +15,7 @@ export default function HomeTab() {
             <div>
               <h1 className="text-3xl md:text-5xl font-serif text-slate-800 tracking-tight">Akhilesh N.</h1>
               <p className="text-[10px] sm:text-xs md:text-sm font-bold tracking-widest text-slate-500 uppercase mt-2">
-                MERN Stack Developer & CS Student
+                Full Stack Developer
               </p>
             </div>
 
@@ -23,7 +23,7 @@ export default function HomeTab() {
             <div className="lg:hidden relative flex-shrink-0 z-10 mt-1">
               <div className="w-16 h-20 sm:w-20 sm:h-24 bg-slate-300 shadow-md border-2 sm:border-4 border-white transform rotate-3 relative hover:rotate-1 transition-transform duration-300">
                 <p className="absolute inset-0 flex items-center justify-center text-slate-500 font-mono text-[8px] sm:text-[10px] text-center px-1 leading-tight">
-                  [Pending]
+                  [Coming Soon]
                 </p>
                 {/* Tiny Tape */}
                 <div className="absolute -top-2 -left-1 w-3 h-5 border border-slate-400 rounded-full transform -rotate-12 bg-transparent shadow-sm pointer-events-none z-20"></div>
@@ -34,8 +34,7 @@ export default function HomeTab() {
           <div className="bg-stone-200/50 border-l-4 border-amber-700 p-4 md:p-5 rounded-r-sm shadow-inner">
             <h3 className="text-[10px] md:text-xs font-bold tracking-widest text-amber-900 uppercase mb-3 border-b border-amber-700/20 pb-2">Subject Intel</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-2 gap-x-4 font-mono text-[10px] md:text-xs text-slate-800">
-              <div><span className="text-slate-400">STATUS:</span> B.Tech CS</div>
-              <div><span className="text-slate-400">INSTITUTION:</span> Universal Eng. College</div>
+              <div><span className="text-slate-400">STATUS:</span> Feelance Developer </div>
               <div><span className="text-slate-400">BASE:</span> Kerala, India</div>
               <div className="sm:col-span-2 truncate"><span className="text-slate-400">COMM:</span> akhileshthrissur@gmail.com</div>
             </div>
